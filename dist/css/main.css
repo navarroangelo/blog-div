@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 5px solid black;
+  margin: 120px auto;
+  padding: 20px;
+}
+
+.container img {
+  height: 150px;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.container .text h2 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container .text p {
+  text-align: justify;
+  width: 100%;
+  text-indent: 10px;
+}
+/*# sourceMappingURL=main.css.map */
